@@ -28,13 +28,9 @@
     text-transform: uppercase;
 }
 
-
-/* .header-alert__button {
-    border: none;
-    background-color: inherit;
+.header-alert__button {
     outline: none;
 }
- */
 
 .header-top__language button {
     border: none;
