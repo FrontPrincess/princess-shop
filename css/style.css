@@ -1,1 +1,115 @@
+/* font-face*/
 
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular/Lato-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato-Regular/Lato-Regular.woff') format('woff'), url('../fonts/Lato-Regular/Lato-Regular.ttf') format('truetype'), url('../fonts/Lato-Regular/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'glyphicons-halflings-regular';
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.woff2'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflings-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*END: font-face*/
+
+.header-alert {
+    background-color: #d9e1e6;
+    font-family: 'Lato-Regular';
+    color: #868f93;
+    padding: 5.5px 0;
+}
+
+.header-alert__text {
+    text-transform: uppercase;
+}
+
+.header-alert__button {
+    border: none;
+    background-color: inherit;
+    outline: none;
+}
+
+.header-top__language button {
+    border: none;
+}
+
+.header-top__language-img {
+    width: 11px;
+    margin-right: 9px;
+}
+
+.header-top__language-lang {
+    font-size: 11px;
+    /*    line-height: 72px;*/
+    margin-right: 11px;
+}
+
+.header-top__language-list {
+    width: 50px;
+}
+
+.header-top__logo-img {
+    display: block;
+}
+
+
+/*
+.header-info {
+    background-color: #d9e1e6;
+}
+
+.header-info__text p {
+    font-family: 'Lato-Regular';
+    font-size: 10px;
+    line-height: 16px;
+    color: #868f93;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding: 7.3px 0px 7.3px;
+}
+
+.header-info__button {
+    border: none;
+    background-color: inherit;
+    outline: none;
+}
+
+.glyphicon {
+    padding-top: 5px;
+    color: #868f93;
+}
+
+
+.header-top__logo {
+    padding: 37px 0px 37px;
+}
+
+.header-top .container {
+    padding: 37px 0;
+}
+
+.currency-button {
+    border: none;
+    outline: none;
+}
+
+.header-top__currency a {
+    display: inline-block;
+}
+
+.header-top__currency a img {
+    display: inline-block;
+    width: 15px;
+}
+
+.header-top__currency a p {
+    display: inline-block;
+    width: 20px;
+    margin-bottom: 0;
+}
+ */

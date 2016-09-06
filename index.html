@@ -3,27 +3,92 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Shop</title>
+    <!-- Local bootstrap CSS & JS -->
+    <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="site-header">
-            <div class="container-fluid">
-                <div class="site-header__top">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6"></div>
-                    <div class="col-lg-3"></div>
+        <!-- #header.site-header -->
+        <header id="header" class="site-header">
+            <!-- .header-alert -->
+            <div class="header-alert">
+                <!-- .container -->
+                <div class="container">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="text-center">
+                            <span class="header-alert__text">start selling your products or buy them from anywhere!</span>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="pull-right">
+                            <button type="button" class="header-alert__button">
+                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="site-header__bottom">
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-6"></div>
-                    <div class="col-lg-3"></div>
-                </div>
+                <!--END:.container -->
             </div>
+            <!--END:.header-alert -->
+            <!-- .header-main-content -->
+            <div class="header-main-content">
+                <!-- .header-top -->
+                <div class="header-top">
+                    <div class="container">
+                        <!-- .header-top__language -->
+                        <div class="col-md-2">
+                            <div class="header-top__language">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src='img/svg/united-states.svg' class="header-top__language-img" alt='img1' />
+                                        <span class="header-top__language-lang">USD</span> <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu header-top__language-list">
+                                        <li>
+                                            <a href="#">
+                                                <img src='img/svg/united-states.svg' class="header-top__language-img" alt='img1' />
+                                                <span class="header-top__language-lang">USD</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src='img/svg/ukraine.svg' class="header-top__language-img" alt='img2' />
+                                                <span class="header-top__language-lang">UAH</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src='img/svg/russia.svg' class="header-top__language-img" alt='img3' />
+                                                <span class="header-top__language-lang">RUB</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END:.header-top__language -->
+                        <div class="col-md-8">
+                            <div class="text-center">
+                                <div class="header-top__logo">
+                                    <a href="#">
+                                        <img src='img/logo.jpg' alt='logo' class="header-top__logo-img" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-top__cart"></div>
+                    </div>
+                </div>
+                <!--END:.header-top -->
+                <!-- .header-bottom -->
+                <div class="header-bottom"></div>
+                <!--END:.header-bottom -->
+            </div>
+            <!--END:.header-main-content -->
         </header>
+        <!--END:#header.site-header -->
     </div>
 </body>
 
