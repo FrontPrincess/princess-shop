@@ -8,6 +8,13 @@
 }
 
 @font-face {
+    font-family: 'Lato-Bold';
+    src: url('../fonts/Lato-Bold/Lato-Bold.eot?') format('eot'), url('../fonts/Lato-Bold/Lato-Bold.woff') format('woff'), url('../fonts/Lato-Bold/Lato-Bold.ttf') format('truetype'), url('../fonts/Lato-Bold/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'glyphicons-halflings-regular';
     src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.woff2'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflings-regular') format('svg');
     font-weight: normal;
@@ -43,12 +50,23 @@
 
 .header-top__language-lang {
     font-size: 11px;
+    font-family: 'Lato-Bold';
     /*    line-height: 72px;*/
     margin-right: 11px;
 }
 
 .header-top__language-list {
     width: 50px;
+}
+
+
+/* .header-top__logo {
+    float: none;
+    margin: 0 auto;
+} */
+
+.header-top__logo a {
+    display: inline-block;
 }
 
 .header-top__logo-img {
