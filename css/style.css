@@ -24,9 +24,13 @@
 
 /*END: font-face*/
 
+body {
+    font-family: 'Lato-Regular';
+}
+
 .header-alert {
     background-color: #d9e1e6;
-    font-family: 'Lato-Regular';
+    /* font-family: 'Lato-Regular'; */
     color: #868f93;
     padding: 5.5px 0;
 }
@@ -37,6 +41,21 @@
 
 .header-alert__button {
     outline: none;
+}
+
+
+/*
+.header-main-content {
+    padding: 10px 0;
+}
+*/
+
+.header-top {
+    padding: 20px 0;
+}
+
+.header-top__language {
+    padding: 10px 0;
 }
 
 .header-top__language button {
@@ -58,6 +77,10 @@
     width: 50px;
 }
 
+.header-top__logo {
+    padding: 11.5px 0;
+}
+
 .header-top__logo a {
     display: inline-block;
 }
@@ -66,12 +89,25 @@
     display: block;
 }
 
-.header-top__cart {
+.header-top__cart {}
+
+.header-top__cart a {
     border: 2px solid #ded3aa;
+    text-transform: uppercase;
+    padding: 13.5px 40.2px;
+    font-size: 12px;
+    /*    border: none; */
+    display: inline-block;
 }
 
-.header-top__cart button {
-    text-transform: uppercase;
-    padding: 10.5px 31.6px;
-    font-size: 12px;
+.header-top__cart .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.dividing-line {
+    /*     height: 2px; */
+    border-bottom: 2px solid #e1e1e1;
+    padding: 5px 0;
 }
