@@ -128,8 +128,14 @@ body {
 }
  */
 
-.header-bottom__nav .nav>li {
+
+/* .header-bottom__nav .nav>li {
     display: inline-block;
+} */
+
+.header-bottom__nav .nav-justified {
+    width: 64.4%;
+    margin: 0 auto;
 }
 
 .header-bottom__nav .nav>li>a {
