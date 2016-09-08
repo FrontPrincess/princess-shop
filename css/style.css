@@ -70,7 +70,7 @@ body {
 }
 
 .header-top__language-lang {
-    font-size: 11px;
+    font-size: 12px;
     font-family: 'Lato-Bold';
     margin-right: 11px;
 }
@@ -121,9 +121,34 @@ body {
 
 /* .header-bottom */
 
-.center {
+
+/* .center {
     float: none;
     margin: 0 auto;
+}
+ */
+
+.header-bottom__nav .nav>li {
+    display: inline-block;
+}
+
+.header-bottom__nav .nav>li>a {
+    padding: 15px 24px;
+}
+
+.header-bottom__nav-item {
+    text-transform: uppercase;
+    outline: none;
+}
+
+.header-bottom__nav-item a {
+    color: #111111;
+    font-size: 12px;
+}
+
+.header-bottom__nav-item a .caret {
+    margin-left: 10px;
+    color: #999999;
 }
 
 
