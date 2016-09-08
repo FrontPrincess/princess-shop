@@ -121,20 +121,25 @@ body {
 
 /* .header-bottom */
 
-
-/* .center {
-    float: none;
-    margin: 0 auto;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
 }
- */
 
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
 
-/* .header-bottom__nav .nav>li {
-    display: inline-block;
-} */
+.header-bottom__navbar {
+    margin-bottom: 0;
+}
 
 .header-bottom__nav .nav-justified {
-    width: 64.4%;
+    width: 75%;
     margin: 0 auto;
 }
 
