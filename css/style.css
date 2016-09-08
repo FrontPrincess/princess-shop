@@ -153,13 +153,39 @@ body {
 }
 
 .header-bottom__nav-item a {
-    color: #111111;
+    color: #000;
     font-size: 12px;
 }
 
 .header-bottom__nav-item a .caret {
     margin-left: 10px;
     color: #999999;
+}
+
+.header-bottom__wlsearch {
+    padding: 15px 0;
+}
+
+.header-bottom__wishlist,
+.header-bottom__separator,
+.header-bottom__search {
+    display: inline-block;
+}
+
+.header-bottom__wishlist a,
+.header-bottom__search a {
+    color: #000;
+    width: 10px;
+    height: 10px;
+}
+
+.header-bottom__separator span {
+    border-left: 2px dotted #999999;
+    height: 10px;
+}
+
+.header-bottom__wishlist a:hover {
+    color: red;
 }
 
 
