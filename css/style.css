@@ -15,6 +15,13 @@
 }
 
 @font-face {
+    font-family: 'Lato-Light';
+    src: url('../fonts/Lato-Light/Lato-Light.eot?') format('eot'), url('../fonts/Lato-Light/Lato-Light.woff') format('woff'), url('../fonts/Lato-Light/Lato-Light.ttf') format('truetype'), url('../fonts/Lato-Light/Lato-Light.svg#Lato-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'glyphicons-halflings-regular';
     src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.woff2'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflings-regular') format('svg');
     font-weight: normal;
@@ -244,6 +251,10 @@ a:hover {
 
 /* .main-content-right */
 
+.main-content-right__back {
+	margin-bottom: 37px;
+}
+
 .main-content-right__back a {
     color: #555555;
     display: inline-block;
@@ -299,13 +310,48 @@ a:hover {
 
 .main-info__product-list-item span {
     color: #000;
+    line-height: 24px;
+
+
 }
 
 .main-info__product-list-item span:last-child {
     color: #68899a;
 }
 
+.add-info__add-description-name {
+	text-transform: uppercase;
+	color: #000;
+	font-family: 'Lato-Bold';
+	font-size: 14px;
+	line-height: 24px;
+}
 
+
+.add-info__description-text {
+	color: #555555;
+	font-family: 'Lato-Light';
+	padding: 30px 0;
+}
+
+
+
+.add-info__description-text p {
+	line-height: 21px;
+}
+
+.add-info__description-text-list {
+	margin-bottom: 0;
+}
+
+.add-info__description-list-item {
+	line-height: 24px;
+	color: #cccccc;
+}
+
+.add-info__description-list-item span {
+	color: #555555;
+}
 /* END:.main-content-right */
 
 
