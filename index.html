@@ -3,12 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <title>Shop</title>
     <!-- Local bootstrap CSS & JS -->
     <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css" />
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -279,30 +283,25 @@
                                 <div class="row">
                                     <div class="col-md-5">
                                         <h4 class="add-info__add-description-name">color</h4>
-                                        <select name="color" id="#" class="form-control">
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                            <option value="">3</option>
-                                            <option value="">4</option>
+                                        <select name="color" id="#">
+                                            <option value="">Select Color</option>
+                                            <option value="">red</option>
+                                            <option value="">black</option>
+                                            <option value="">white</option>
                                         </select>
                                     </div>
                                     <div class="col-md-5">
                                         <h4 class="add-info__add-description-name">size</h4>
-                                        <select name="size" id="#" class="form-control">
+                                        <select name="size" id="#">
+                                            <option value="">Select Size</option>
                                             <option value="">1</option>
                                             <option value="">2</option>
                                             <option value="">3</option>
-                                            <option value="">4</option>
                                         </select>
                                     </div>
                                     <div class="col-md-2">
                                         <h4 class="add-info__add-description-name">qty</h4>
-                                        <select name="gty" id="#" class="form-control">
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                            <option value="">3</option>
-                                            <option value="">4</option>
-                                        </select>
+                                        <input type="number" name="qty" min="0" max="20" step="1">
                                     </div>
                                 </div>
                             </div>
