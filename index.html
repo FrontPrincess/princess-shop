@@ -8,10 +8,12 @@
     <!-- Local bootstrap CSS & JS -->
     <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery.formstyler.css" />
+    <link rel="stylesheet" href="css/bootstrap-formhelpers.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/bootstrap-formhelpers.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 
@@ -47,31 +49,7 @@
                         <!-- .header-top__language -->
                         <div class="col-md-2">
                             <div class="header-top__language">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img src='img/svg/united-states.svg' class="header-top__language-img" alt='img1' />
-                                        <span class="header-top__language-lang">USD</span> <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu header-top__language-list">
-                                        <li>
-                                            <a href="#">
-                                                <img src='img/svg/united-states.svg' class="header-top__language-img" alt='img1' />
-                                                <span class="header-top__language-lang">USD</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src='img/svg/ukraine.svg' class="header-top__language-img" alt='img2' />
-                                                <span class="header-top__language-lang">UAH</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src='img/svg/russia.svg' class="header-top__language-img" alt='img3' />
-                                                <span class="header-top__language-lang">RUB</span>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true">
                                 </div>
                             </div>
                         </div>
