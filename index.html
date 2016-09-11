@@ -300,12 +300,19 @@
                         <div class="main-content-right__socials">
                             <h4 class="main-content-right__socials-share">share this</h4>
                             <!-- facebook -->
-                            <a href="#null" onClick="openWin2()" class="btn btn-info">Поделиться в Facebook</a>
+                            <div id="fb-root"></div>
                             <script>
-                            function openWin2() {
-                                myWin = open("http://www.facebook.com/sharer.php?u=http://bit.ly/FBshareArticle", "displayWindow", "width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
-                            }
+                            (function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = "//connect.facebook.net/en/sdk.js#xfbml=1&version=v2.7";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));
                             </script>
+                            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+                            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
                             <!-- END: facebook -->
                             <!-- twitter -->
                             <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
@@ -337,6 +344,22 @@
             </div>
         </div>
         <!--END:.main-content -->
+        <!-- #footer.site-footer -->
+        <footer id="footer" class="site-footer">
+            <div class="dividing-line">
+                <span></span>
+            </div>
+            <div class="footer-license">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <span class="footer-license-text">Made with Love & Coffee © 2015 Design Lazy. All Rights Reserved.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--END:#footer.site-footer -->
     </div>
 </body>
 

@@ -423,3 +423,19 @@ a:hover {
 
 
 /* END:.main-content */
+
+
+/* .site-footer */
+
+.footer-license {
+    padding: 17px 0;
+}
+
+.footer-license-text {
+    font-size: 13px;
+    line-height: 36px;
+    color: #b5b5b5;
+}
+
+
+/* END:.site-footer */
