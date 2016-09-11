@@ -118,6 +118,10 @@ a:hover {
     font-size: 12px;
     /*    border: none; */
     display: inline-block;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .header-top__cart .btn {
@@ -127,8 +131,10 @@ a:hover {
 }
 
 .header-top__cart .btn-default:hover {
-    background-color: #fff;
-    border-color: #66b3ff;
+    font-weight: 600;
+    background-color: #d9e1e6;
+    border-color: #68899a;
+    color: #68899a;
 }
 
 
@@ -190,6 +196,19 @@ a:hover {
 .header-bottom__nav-item a {
     color: #000;
     font-size: 12px;
+}
+
+.nav>li>a {
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 .header-bottom__nav-item a .caret {
@@ -402,12 +421,33 @@ a:hover {
     background-color: #000;
     outline: none;
     padding: 17px 67.3px;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    border: 1px solid #000;
+}
+
+.main-content-right__choose-cart:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #e1e1e1;
 }
 
 .main-content-right__choose-wishlist {
     background-color: #fff;
     padding: 17px 47.3px;
     border: 1px solid #e1e1e1;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.main-content-right__choose-wishlist:hover {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
 }
 
 .main-content-right__socials-share {
