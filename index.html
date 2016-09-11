@@ -316,10 +316,43 @@
                         </div>
                         <!--END:.main-content-right__choose -->
                         <!-- .main-content-right__socials -->
+                        <div class="dividing-line">
+                            <span></span>
+                        </div>
                         <div class="main-content-right__socials">
                             <h4 class="main-content-right__socials-share">share this</h4>
+                            <!-- facebook -->
+                            <a href="#null" onClick="openWin2()" class="btn btn-info">Поделиться в Facebook</a>
+                            <script>
+                            function openWin2() {
+                                myWin = open("http://www.facebook.com/sharer.php?u=http://bit.ly/FBshareArticle", "displayWindow", "width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+                            }
+                            </script>
+                            <!-- END: facebook -->
+                            <!-- twitter -->
+                            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                            <script>
+                            ! function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0],
+                                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + '://platform.twitter.com/widgets.js';
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, 'script', 'twitter-wjs');
+                            </script>
+                            <!-- END: twitter -->
+                            <!-- pinterest -->
+                            <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+                            <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=http://www.foodiecrush.com/2014/03/filet-mignon-with-porcini-mushroom-compound-butter/&media=https://s-media-cache-ak0.pinimg.com/736x/17/34/8e/17348e163a3212c06e61c41c4b22b87a.jpg&description=So%20delicious!" data-pin-config="beside"></a>
+                            <!-- END:pinterest -->
                         </div>
                         <!--END:.main-content-right__socials -->
+                        <div class="dividing-line">
+                            <span></span>
+                        </div>
                     </div>
                 </div>
                 <!--END:.main-content-right -->

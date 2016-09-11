@@ -410,6 +410,14 @@ a:hover {
     border: 1px solid #e1e1e1;
 }
 
+.main-content-right__socials-share {
+    text-transform: uppercase;
+    font-family: 'Lato-Bold';
+    font-size: 12px;
+    padding: 9.5px 0;
+    display: inline-block;
+}
+
 
 /* END:.main-content-right */
 
