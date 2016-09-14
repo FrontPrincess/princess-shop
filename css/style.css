@@ -35,13 +35,17 @@ body {
     font-family: 'Lato-Regular';
 }
 
-a {
+a,
+a:hover,
+a:focus,
+a:active {
     color: #000;
 }
 
-a:hover {
+
+/* a:hover  {
     color: #000;
-}
+} */
 
 
 /* .header-alert */
@@ -209,6 +213,13 @@ a:hover {
 .nav>li>a:hover {
     background-color: #000;
     color: #fff;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: #000;
+    border: none;
 }
 
 .header-bottom__nav-item a .caret {
@@ -417,33 +428,44 @@ a:hover {
 }
 
 .main-content-right__choose-cart {
+    padding: 17px 67.3px;
+}
+
+.main-content-right__choose-wishlist {
+    padding: 17px 47.3px;
+}
+
+
+/* .main-content-right__choose-cart,
+.main-content-right__choose-wishlist {
     color: #fff;
     background-color: #000;
     outline: none;
-    padding: 17px 67.3px;
     -webkit-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     border: 1px solid #000;
-}
+} */
 
-.main-content-right__choose-cart:hover {
+
+/* .main-content-right__choose-cart:hover {
     background-color: #fff;
     color: #000;
     border-color: #e1e1e1;
-}
+} */
 
+.main-content-right__choose-cart,
 .main-content-right__choose-wishlist {
     background-color: #fff;
-    padding: 17px 47.3px;
     border: 1px solid #e1e1e1;
-    -webkit-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
+.main-content-right__choose-cart:hover,
 .main-content-right__choose-wishlist:hover {
     background-color: #000;
     border-color: #000;
@@ -456,6 +478,7 @@ a:hover {
     font-size: 12px;
     padding: 9.5px 0;
     display: inline-block;
+    margin-right: 20px;
 }
 
 
