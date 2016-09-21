@@ -47,7 +47,7 @@
                 <div class="header-top">
                     <div class="container">
                         <!-- .header-top__language -->
-                        <div class="col-md-2">
+                        <div class="col-xs-3 col-md-3 col-lg-2">
                             <div class="header-top__language">
                                 <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true">
                                 </div>
@@ -55,7 +55,7 @@
                         </div>
                         <!-- END:.header-top__language -->
                         <!-- .header-top__logo -->
-                        <div class="col-md-8">
+                        <div class="col-xs-6 col-md-6 col-lg-8">
                             <div class="header-top__logo text-center">
                                 <a href="#">
                                     <img src='img/logo.jpg' alt='logo' class="header-top__logo-img" />
@@ -64,7 +64,7 @@
                         </div>
                         <!-- END:.header-top__logo -->
                         <!-- .header-top__cart -->
-                        <div class="col-md-2">
+                        <div class="col-xs-3 col-md-3 col-lg-2">
                             <div class="pull-right">
                                 <div class="header-top__cart">
                                     <div class="btn-group">
@@ -84,9 +84,9 @@
                 <div class="header-bottom">
                     <div class="container">
                         <!-- .header-bottom__toggle -->
-                        <div class="col-md-11">
+                        <div class="col-xs-10 col-md-10 col-lg-11">
                             <div class="navbar header-bottom__navbar">
-                                <div class="col-md-1">
+                                <div class="col-md-1 col-lg-1">
                                     <div class="header-bottom__toggle">
                                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                             <span class="sr-only">Toggle navigation</span>
@@ -98,7 +98,7 @@
                                 </div>
                                 <!--END:.header-bottom__toggle -->
                                 <!-- .header-bottom__nav -->
-                                <div class="col-md-11">
+                                <div class="col-md-11 col-lg-11">
                                     <div class="collapse navbar-collapse header-bottom__nav">
                                         <ul class="nav nav-justified">
                                             <li role="presentation" class="header-bottom__nav-item">
@@ -136,7 +136,7 @@
                         </div>
                         <!--END:.header-bottom__nav -->
                         <!-- .header-bottom__wlsearch -->
-                        <div class="col-md-1">
+                        <div class="col-xs-2 col-md-2 col-lg-1">
                             <div class="pull-right">
                                 <div class="header-bottom__wlsearch">
                                     <!-- .header-bottom__wishlist -->
@@ -149,7 +149,7 @@
                                     </div>
                                     <!-- .header-bottom__search -->
                                     <div class="header-bottom__search">
-                                        <div class="search-button"><i class="glyphicon glyphicon-search"></i></div>
+                                        <div class="search-button"><a href="#"><i class="glyphicon glyphicon-search"></i></a></div>
                                         <form action="#" class="search-form">
                                             <input type="search" placeholder="Search" />
                                         </form>
@@ -301,9 +301,11 @@
                             <div class="main-content-right__choose-clear">
                                 <a href="#">clear selection</a>
                             </div>
-                            <button type="button" class="main-content-right__choose-cart">add to cart</button>
-                            <button type="button" class="main-content-right__choose-wishlist pull-right">
-                                <span class="glyphicon glyphicon-heart-empty"></span> add to wishlist</button>
+                            <div class="main-content-button">
+                                <button type="button" class="main-content-right__choose-cart">add to cart</button>
+                                <button type="button" class="main-content-right__choose-wishlist">
+                                    <span class="glyphicon glyphicon-heart-empty"></span> add to wishlist</button>
+                            </div>
                         </div>
                         <!--END:.main-content-right__choose -->
                         <!-- .main-content-right__socials -->

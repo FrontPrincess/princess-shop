@@ -77,6 +77,10 @@ a:focus {
     border: none;
 }
 
+.bfh-selectbox .bfh-selectbox-toggle {
+    display: block;
+}
+
 .header-top__language-img {
     width: 15px;
     margin-right: 9px;
@@ -177,8 +181,8 @@ a:focus {
 }
 
 .header-bottom__nav .nav-justified {
-    width: 75%;
     margin: 0 auto;
+    width: 75%;
 }
 
 .header-bottom__nav .nav>li>a {
@@ -228,7 +232,6 @@ a:focus {
 .header-bottom__separator,
 .header-bottom__search {
     display: inline-block;
-    margin-right: 6px;
 }
 
 .header-bottom__wlsearch div:last-child {
@@ -256,19 +259,11 @@ a:focus {
 
 .header-bottom__search {
     background-color: #fff;
-    position: relative;
 }
 
 .search-button {
-    position: absolute;
     cursor: pointer;
     background-color: inherit;
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    top: -14px;
-    right: -17px;
-    ;
 }
 
 .search-button.active {
@@ -443,7 +438,7 @@ a:focus {
 }
 
 .main-content-right__choose {
-    margin-bottom: 38px;
+    margin-bottom: 23px;
 }
 
 .main-content-right__choose-clear,
@@ -456,12 +451,14 @@ a:focus {
 .main-content-right__choose-clear {
     line-height: 36px;
     margin-bottom: 35px;
+    display: inline-block;
 }
 
 .main-content-right__choose-cart,
 .main-content-right__choose-wishlist {
     font-family: 'Lato-Bold';
     border: none;
+    margin-bottom: 15px;
 }
 
 .main-content-right__choose-cart {
@@ -471,26 +468,6 @@ a:focus {
 .main-content-right__choose-wishlist {
     padding: 17px 47.3px;
 }
-
-
-/* .main-content-right__choose-cart,
-.main-content-right__choose-wishlist {
-    color: #fff;
-    background-color: #000;
-    outline: none;
-    -webkit-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-    border: 1px solid #000;
-} */
-
-
-/* .main-content-right__choose-cart:hover {
-    background-color: #fff;
-    color: #000;
-    border-color: #e1e1e1;
-} */
 
 .main-content-right__choose-cart,
 .main-content-right__choose-wishlist {
@@ -507,6 +484,10 @@ a:focus {
     background-color: #000;
     border-color: #000;
     color: #fff;
+}
+
+.main-content-button button:first-child {
+    margin-right: 12px;
 }
 
 .main-content-right__socials-share {
@@ -539,3 +520,44 @@ a:focus {
 
 
 /* END:.site-footer */
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1199px) {
+    .header-bottom__nav .nav-justified {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-content-button {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-alert {
+        display: none;
+    }
+    .main-content-right__back {
+        text-align: right;
+    }
+    .add-info__description-text p {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .add-info__description-text-list {
+        width: 45%;
+        margin: 0 auto;
+    }
+    .main-content-right__main-info,
+    .main-content-right__add-info,
+    .main-content-right__choose {
+        text-align: center;
+    }
+}
+
+
+/* END: RESPONSIVE */
