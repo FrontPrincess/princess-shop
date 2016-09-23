@@ -10,18 +10,21 @@ $(document).ready(function() {
         gallery: 'gallery_01',
         cursor: 'pointer',
         galleryActiveClass: 'active',
-        imageCrossfade: true,
+        // imageCrossfade: true,
+        zoomType: "lens",
+        lensShape: "round",
+        lensSize: 200,
         responsive: true,
-        /*loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'
-         */
+        zoomWindowWidth: 800,
+        containLensZoom: true,
     });
 
     //pass the images to Fancybox
-    $("#zoom_03").bind("click", function(e) {
-        var ez = $('#zoom_03').data('elevateZoom');
-        $.fancybox(ez.getGalleryList());
-        return false;
-    });
+    // $("#zoom_03").bind("click", function(e) {
+    //     var ez = $('#zoom_03').data('elevateZoom');
+    //     $.fancybox(ez.getGalleryList());
+    //     return false;
+    // });
 
 
 });
