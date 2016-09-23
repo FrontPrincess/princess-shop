@@ -14,6 +14,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.formstyler.min.js"></script>
     <script src="js/bootstrap-formhelpers.min.js"></script>
+    <script src="js/jquery.elevatezoom.js"></script>
     <script src="js/main.js"></script>
 </head>
 
@@ -177,30 +178,32 @@
                     <div class="main-content-left">
                         <div class="main-content-left__top-img">
                             <a href="#">
-                                <img src='img/content-img1.jpg' alt='violin' />
+                                <img id="zoom_03" src='img/content-img1.jpg' data-zoom-image="img/content-img1.jpg" alt='violin' />
                             </a>
                         </div>
                         <div class="main-content-left__bottom-img">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <a href="#" class="thumbnail">
-                                        <img src="img/content-img2.jpg" alt="black-violin">
-                                    </a>
-                                </div>
-                                <div class="col-md-3">
-                                    <a href="#" class="thumbnail">
-                                        <img src="img/content-img3.jpg" alt="piano">
-                                    </a>
-                                </div>
-                                <div class="col-md-3">
-                                    <a href="#" class="thumbnail">
-                                        <img src="img/content-img4.jpg" alt="piano2">
-                                    </a>
-                                </div>
-                                <div class="col-md-3">
-                                    <a href="#" class="thumbnail">
-                                        <img src="img/content-img5.jpg" alt="violoncello">
-                                    </a>
+                            <div id="gallery_01">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <a href="#" class="thumbnail" data-image="img/content-img1.jpg" data-zoom-image="img/content-img1.jpg">
+                                            <img id="zoom_03" src="img/content-img1.jpg" alt="violin">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#" class="thumbnail" data-image="img/content-img3.jpg" data-zoom-image="img/content-img3.jpg">
+                                            <img id="zoom_03" src="img/content-img3.jpg" alt="piano">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#" class="thumbnail" data-image="img/content-img4.jpg" data-zoom-image="img/content-img4.jpg">
+                                            <img id="zoom_03" src="img/content-img4.jpg" alt="piano2">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <a href="#" class="thumbnail" data-image="img/content-img5.jpg" data-zoom-image="img/content-img5.jpg">
+                                            <img id="zoom_03" src="img/content-img5.jpg" alt="violoncello">
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
