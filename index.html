@@ -100,7 +100,7 @@
                                 <!--END:.header-bottom__toggle -->
                                 <!-- .header-bottom__nav -->
                                 <div class="col-xs-12 col-sm-10 col-md-10 col-lg-11">
-                                    <div class="col-xs-12 col-sm-12 collapse navbar-collapse header-bottom__nav">
+                                    <div class="collapse navbar-collapse header-bottom__nav">
                                         <ul class="nav nav-justified">
                                             <li role="presentation" class="header-bottom__nav-item active">
                                                 <a href="#">home</a>
@@ -318,38 +318,44 @@
                         <div class="main-content-right__socials">
                             <h4 class="main-content-right__socials-share">share this</h4>
                             <!-- facebook -->
-                            <div id="fb-root"></div>
-                            <script>
-                            (function(d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0];
-                                if (d.getElementById(id)) return;
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = "//connect.facebook.net/en/sdk.js#xfbml=1&version=v2.7";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }(document, 'script', 'facebook-jssdk'));
-                            </script>
-                            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
-                            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
-                            <!-- END: facebook -->
-                            <!-- twitter -->
-                            <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-                            <script>
-                            ! function(d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0],
-                                    p = /^http:/.test(d.location) ? 'http' : 'https';
-                                if (!d.getElementById(id)) {
+                            <div class="facebook">
+                                <div id="fb-root"></div>
+                                <script>
+                                (function(d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                    if (d.getElementById(id)) return;
                                     js = d.createElement(s);
                                     js.id = id;
-                                    js.src = p + '://platform.twitter.com/widgets.js';
+                                    js.src = "//connect.facebook.net/en/sdk.js#xfbml=1&version=v2.7";
                                     fjs.parentNode.insertBefore(js, fjs);
-                                }
-                            }(document, 'script', 'twitter-wjs');
-                            </script>
+                                }(document, 'script', 'facebook-jssdk'));
+                                </script>
+                                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+                                <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+                            </div>
+                            <!-- END: facebook -->
+                            <!-- twitter -->
+                            <div class="twitter">
+                                <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                                <script>
+                                ! function(d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0],
+                                        p = /^http:/.test(d.location) ? 'http' : 'https';
+                                    if (!d.getElementById(id)) {
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = p + '://platform.twitter.com/widgets.js';
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }
+                                }(document, 'script', 'twitter-wjs');
+                                </script>
+                            </div>
                             <!-- END: twitter -->
                             <!-- pinterest -->
-                            <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
-                            <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=http://www.foodiecrush.com/2014/03/filet-mignon-with-porcini-mushroom-compound-butter/&media=https://s-media-cache-ak0.pinimg.com/736x/17/34/8e/17348e163a3212c06e61c41c4b22b87a.jpg&description=So%20delicious!" data-pin-config="beside"></a>
+                            <div class="pinterest">
+                                <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+                                <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=http://www.foodiecrush.com/2014/03/filet-mignon-with-porcini-mushroom-compound-butter/&media=https://s-media-cache-ak0.pinimg.com/736x/17/34/8e/17348e163a3212c06e61c41c4b22b87a.jpg&description=So%20delicious!" data-pin-config="beside"></a>
+                            </div>
                             <!-- END:pinterest -->
                         </div>
                         <!--END:.main-content-right__socials -->
